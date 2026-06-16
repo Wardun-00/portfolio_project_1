@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wardun</title>
+    <!-- link tailwind and dasyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- linkup css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+<!-- header secstion start -->
+<header class="sticky top-0 z-50 backdrop-blur-md bg-black/80 border-b border-gray-800">
+  <div class="navbar max-w-7xl mx-auto px-4">
+
+    <!-- Logo -->
+    <div class="flex-1">
+      <a class="text-2xl font-bold text-white tracking-wider 
+      hover:text-yellow-400 transition-all duration-300 
+      hover:scale-110">
+        Wardun
+      </a>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="dropdown dropdown-end lg:hidden">
+      <label tabindex="0" class="btn btn-ghost text-white">
+        <svg xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </label>
+
+      <ul tabindex="0"
+        class="menu menu-sm dropdown-content mt-3 z-[1] p-3 shadow-lg bg-black rounded-box w-52 text-white">
+        <li><a>Home</a></li>
+        <li><a>About</a></li>
+        <li><a>Services</a></li>
+        <li><a>Projects</a></li>
+        <li class="mt-2">
+          <a class="btn border-0 text-white bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500">
+            Download CV
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="hidden lg:flex">
+      <ul class="menu menu-horizontal px-1 text-white gap-2">
+
+        <li>
+          <a class="hover:text-yellow-400 transition-all duration-300 hover:-translate-y-1">
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a class="hover:text-yellow-400 transition-all duration-300 hover:-translate-y-1">
+            About
+          </a>
+        </li>
+
+        <li>
+          <a class="hover:text-yellow-400 transition-all duration-300 hover:-translate-y-1">
+            Services
+          </a>
+        </li>
+
+        <li>
+          <a class="hover:text-yellow-400 transition-all duration-300 hover:-translate-y-1">
+            Projects
+          </a>
+        </li>
+
+        <li>
+          <a class="btn border-0 text-white rounded-full
+          bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500
+          hover:scale-105 hover:shadow-lg hover:shadow-orange-500/40
+          transition-all duration-300">
+            Download CV
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</header>
+ <!-- header section end -->
+
+ <!-- main content section start -->
+ <main>
+    <!-- hero section start -->
+     <section class="min-h-screen bg-black text-white flex items-center">
+  <div class="max-w-7xl mx-auto px-6 py-20">
+
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+      <!-- Left Content -->
+      <div
+        class="space-y-6 text-center lg:text-left"
+        data-aos="fade-right"
+      >
+
+        <h3 class="text-2xl md:text-3xl font-semibold text-gray-300">
+          HI! THIS IS
+        </h3>
+
+        <h1
+          class="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent leading-tight"
+        >
+          WARDUN
+        </h1>
+
+        <h2 class="text-3xl md:text-5xl font-bold">
+          Web Designer &
+          <span class="text-yellow-400">Frontend Developer</span>
+        </h2>
+
+        <p class="text-gray-400 max-w-xl mx-auto lg:mx-0">
+          Passionate Web Designer & Frontend Developer creating
+          responsive, modern and user-friendly websites with
+          HTML, CSS, Tailwind CSS and JavaScript.
+        </p>
+
+        <div
+          class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+        >
+          <a
+            href="#contact"
+            class="btn border-0 rounded-full text-white px-8
+            bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500
+            hover:scale-105 hover:shadow-xl hover:shadow-orange-500/30
+            transition-all duration-300"
+          >
+            Let's Connect
+          </a>
+
+          <a
+            href="#portfolio"
+            class="btn btn-outline border-yellow-400 text-yellow-400
+            rounded-full px-8 hover:bg-yellow-400 hover:text-black
+            transition-all duration-300"
+          >
+            View Portfolio →
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Right Image -->
+      <div
+        class="relative flex justify-center"
+        data-aos="fade-left"
+      >
+
+        <!-- Background Glow -->
+        <div
+          class="absolute w-80 h-80 md:w-96 md:h-96
+          bg-gradient-to-r from-gray-400/20 to-orange-500/20
+          rounded-full blur-3xl"
+        ></div>
+
+        <img
+          src="./assets/image/wardun-2.png"
+          alt="Wardun"
+          class="relative z-10 w-[300px] md:w-[950px]
+          hover:scale-105 transition duration-500
+          animate-bounce"
+        />
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+    <!-- hero section end -->
+
+    <!-- card section -->
+ </main>
+ <!-- main content section end -->
+
+ <!-- footer section start -->
+ <footer></footer>
+ <!-- footer section end -->
+</body>
+
+</html>
