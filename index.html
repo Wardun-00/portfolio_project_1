@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wardun</title>
+    <!-- likup AOS  -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- link tailwind and dasyui cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -18,16 +21,16 @@
   <div class="navbar max-w-7xl mx-auto px-4">
 
     <!-- Logo -->
-    <div class="flex-1">
+    <div class="flex-1"data-aos="fade-right" data-aos-duration="1500">
       <a class="text-2xl font-bold text-white tracking-wider 
       hover:text-yellow-400 transition-all duration-300 
-      hover:scale-110">
+      hover:scale-110 ">
         Wardun
       </a>
     </div>
 
     <!-- Mobile Menu -->
-    <div class="dropdown dropdown-end lg:hidden">
+    <div class="dropdown dropdown-end lg:hidden" data-aos="fade-left" data-aos-duration="1500">
       <label tabindex="0" class="btn btn-ghost text-white">
         <svg xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -37,7 +40,7 @@
           class="w-6 h-6">
           <path stroke-linecap="round"
             stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
         </svg>
       </label>
 
@@ -70,7 +73,7 @@
     </div>
 
     <!-- Desktop Menu -->
-    <div class="hidden lg:flex">
+    <div class="hidden lg:flex" data-aos="fade-left" data-aos-duration="1500">
       <ul class="menu menu-horizontal px-1 text-white gap-2">
 
         <li>
@@ -101,7 +104,7 @@
           <a class="btn border-0 text-white rounded-full
           bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500
           hover:scale-105 hover:shadow-lg hover:shadow-orange-500/40
-          transition-all duration-300">
+          transition-all duration-300 animate-pulse">
             Download CV
           </a>
         </li>
@@ -156,7 +159,7 @@
             class="btn border-0 rounded-full text-white px-8
             bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500
             hover:scale-105 hover:shadow-xl hover:shadow-orange-500/30
-            transition-all duration-300"
+            transition-all duration-300 animate-pulse"
           >
             Let's Connect
           </a>
@@ -190,7 +193,7 @@
   src="./assets/image/wardun-2.png"
   alt="Wardun"
   class="relative z-10 w-[380px] md:w-[950px] hover:scale-105 transition-all duration-500 filter drop-shadow-lg drop-shadow-orange-500/50
-  animate-bounce"
+  animate-pulse"
 />
 
       </div>
@@ -206,7 +209,7 @@
   <div class="max-w-7xl mx-auto px-6">
 
     <!-- Section Title -->
-    <div class="text-center mb-14">
+    <div class="text-center mb-14"data-aos="zoom-in" data-aos-duration="1500">
       <p class="text-yellow-400 uppercase tracking-[4px] text-sm font-semibold">
         Specialities
       </p>
@@ -229,7 +232,8 @@
         class="bg-[#111] border border-gray-800 rounded-xl p-6
         hover:border-yellow-400 hover:-translate-y-2
         hover:shadow-lg hover:shadow-yellow-500/20
-        transition-all duration-300 group">
+        transition-all duration-300 group
+        "data-aos="zoom-in" data-aos-duration="1500">
 
       <div class="relative overflow-hidden rounded-lg mb-5">
 
@@ -258,7 +262,7 @@
         class="bg-[#111] border border-gray-800 rounded-xl p-6
         hover:border-yellow-400 hover:-translate-y-2
         hover:shadow-lg hover:shadow-yellow-500/20
-        transition-all duration-300 group">
+        transition-all duration-300 group"data-aos="zoom-out" data-aos-duration="1500">
 
         <div class="relative overflow-hidden rounded-lg mb-5">
 
@@ -287,7 +291,7 @@
         class="bg-[#111] border border-gray-800 rounded-xl p-6
         hover:border-yellow-400 hover:-translate-y-2
         hover:shadow-lg hover:shadow-yellow-500/20
-        transition-all duration-300 group">
+        transition-all duration-300 group"data-aos="flip-down" data-aos-duration="1500">
 
         <div class="relative overflow-hidden rounded-lg mb-5">
 
@@ -315,7 +319,9 @@
         class="bg-[#111] border border-gray-800 rounded-xl p-6
         hover:border-yellow-400 hover:-translate-y-2
         hover:shadow-lg hover:shadow-yellow-500/20
-        transition-all duration-300 group">
+        transition-all duration-300 group"
+        data-aos="zoom-in"
+        data-aos-duration="1500">
 
         <div class="relative overflow-hidden rounded-lg mb-5">
 
@@ -344,7 +350,9 @@
         class="bg-[#111] border border-gray-800 rounded-xl p-6
         hover:border-yellow-400 hover:-translate-y-2
         hover:shadow-lg hover:shadow-yellow-500/20
-        transition-all duration-300 group">
+        transition-all duration-300 group"
+        data-aos="zoom-in"
+        data-aos-duration="1500">
 
        <div class="relative overflow-hidden rounded-lg mb-5">
 
@@ -373,7 +381,9 @@
         class="bg-[#111] border border-gray-800 rounded-xl p-6
         hover:border-yellow-400 hover:-translate-y-2
         hover:shadow-lg hover:shadow-yellow-500/20
-        transition-all duration-300 group">
+        transition-all duration-300 group"
+        data-aos="zoom-in"
+        data-aos-duration="1500">
 
         <div class="relative overflow-hidden rounded-lg mb-5">
 
@@ -402,7 +412,9 @@
         class="bg-[#111] border border-gray-800 rounded-xl p-6
         hover:border-yellow-400 hover:-translate-y-2
         hover:shadow-lg hover:shadow-yellow-500/20
-        transition-all duration-300 group">
+        transition-all duration-300 group"
+        data-aos="zoom-in"
+        data-aos-duration="1500">
 
        <div class="relative overflow-hidden rounded-lg mb-5">
 
@@ -431,7 +443,9 @@
         class="bg-[#111] border border-gray-800 rounded-xl p-6
         hover:border-yellow-400 hover:-translate-y-2
         hover:shadow-lg hover:shadow-yellow-500/20
-        transition-all duration-300 group">
+        transition-all duration-300 group"
+        data-aos="zoom-in"
+        data-aos-duration="1500">
 
        <div class="relative overflow-hidden rounded-lg mb-5">
 
@@ -761,6 +775,14 @@
   </div>
 </footer>
  <!-- footer section end -->
+
+ <!-- linkup aos -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
+ <!-- initialze AOS -->
+  <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
